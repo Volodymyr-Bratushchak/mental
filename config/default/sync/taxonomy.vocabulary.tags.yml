@@ -7,5 +7,5 @@ _core:
 name: Tags
 vid: tags
 description: 'Use tags to group articles on similar topics into categories.'
-hierarchy: 0
+hierarchy: 1
 weight: 0

@@ -1,29 +1,27 @@
-uuid: a55d2d07-fc25-4f2b-8701-0b9e7f9e6591
+uuid: 6ef51a15-3992-4d38-b826-1a0567bea0f5
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_tags
+    - field.storage.node.field_echelon
     - node.type.article
-    - taxonomy.vocabulary.tags
-id: node.article.field_tags
-field_name: field_tags
+id: node.article.field_echelon
+field_name: field_echelon
 entity_type: node
 bundle: article
-label: Tags
+label: Echelon
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:taxonomy_term'
+  handler: 'default:node'
   handler_settings:
     target_bundles:
-      tags: tags
+      article: article
     sort:
-      field: name
-      direction: asc
+      field: _none
     auto_create: false
     auto_create_bundle: ''
 field_type: entity_reference

@@ -4,13 +4,22 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
-    - field.field.node.article.comment
+    - field.field.node.article.field_author
+    - field.field.node.article.field_describe
+    - field.field.node.article.field_echelon
+    - field.field.node.article.field_photo
+    - field.field.node.article.field_posted
     - field.field.node.article.field_tags
+    - field.field.node.article.field_title
+    - field.field.node.article.field_video
+    - image.style.thumbnail
     - node.type.article
   module:
-    - comment
+    - datetime
+    - image
     - path
     - text
+    - video_embed_field
 _core:
   default_config_hash: vPb_yvhA-xuNoV_yOmOwYxGuHNRIH1CoMK2qi7BSga0
 id: node.article.default
@@ -27,27 +36,74 @@ content:
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
-  comment:
-    type: comment_default
-    weight: 20
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_tags:
-    type: entity_reference_autocomplete_tags
-    weight: 3
+  field_author:
+    weight: 126
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
     region: content
+  field_describe:
+    weight: 122
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_echelon:
+    weight: 128
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_photo:
+    weight: 121
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_posted:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_tags:
+    weight: 123
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_title:
+    weight: 124
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_video:
+    weight: 127
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
   path:
     type: path
     weight: 30

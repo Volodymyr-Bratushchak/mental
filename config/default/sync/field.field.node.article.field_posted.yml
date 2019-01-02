@@ -1,0 +1,21 @@
+uuid: 4af4bd15-3149-4288-aa60-1c92799fb359
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_posted
+    - node.type.article
+  module:
+    - datetime
+id: node.article.field_posted
+field_name: field_posted
+entity_type: node
+bundle: article
+label: Posted
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

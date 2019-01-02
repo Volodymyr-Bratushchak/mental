@@ -1,0 +1,21 @@
+uuid: afefe391-6f8d-4370-8398-b9faf6404b55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_describe
+    - node.type.article
+  module:
+    - text
+id: node.article.field_describe
+field_name: field_describe
+entity_type: node
+bundle: article
+label: Describe
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

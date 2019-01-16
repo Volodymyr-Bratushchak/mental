@@ -50,16 +50,12 @@ function agave_preprocess_page(array &$variables) {
   }
 }
 
-function agave_preprocess_node(&$variables){
-//  $variables['top_tag'] = $variables['content']['field_tags'][0]['#title'];
-}
-
-
 function agave_preprocess_field(&$variables) {
   if (($variables['element']['#field_name'] == 'field_tags')) {
     $variables['social']['article_title'] = $variables['element']['#object']->getTitle();
     $variables['social']['article_nid'] = $variables['element']['#object']->id();
     $variables['social']['article_describe'] = $variables['element']['#object']->get('field_describe')-> getValue()[0]['value'];
     $variables['social']['article_image'] = $variables['element']['#object']->field_photo->entity->uri->value;
+    $variables['social']['url'] = $variables['element']['#object']->url();
   }
 }

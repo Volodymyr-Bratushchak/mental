@@ -81,14 +81,14 @@
 {#Customize field for Subscribe and Share blocks#}
 <div class="social">
   <div class="fb-share-button"
-       data-href="{{ url('<front>')|render ~ file_url(social.url) }}"
+       data-href="{{ url('<front>')|render}}node/{{ social.article_nid }}"
        data-layout="button_count"
        data-size="small" data-mobile-iframe="false">
-    {#<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmental.loc%2Fnode%2F{{ social.article_nid }}&amp;src=sdkpreparse&amp;description=rerere" class="fb-xfbml-parse-ignore">Share</a>#}
+    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmental.loc%2Fnode%2F{{ social.article_nid }}&amp;src=sdkpreparse&amp;description=rerere" class="fb-xfbml-parse-ignore">Share</a>
   </div>
 </div>
 <div class="social">
-  <a target="_blank" href="http://twitter.com/share?text=Mental - {{social.article_title}}. &url={{ url('<front>')|render ~  file_url(social.url) }}">
+    <a target="_blank" href="http://twitter.com/share?text=Mental - {{social.article_title}}. &url={{ url('<front>')|render}}node/{{ social.article_nid }}">
     <i class="fa fa-twitter"></i>
     Tweet
   </a>

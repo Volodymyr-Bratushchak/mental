@@ -3,6 +3,7 @@ entity_type_groups:
     article:
       basic: basic
       advanced: advanced
+      open_graph: open_graph
       facebook: facebook
       twitter_cards: twitter_cards
   taxonomy_term:

@@ -1,0 +1,11 @@
+entity_type_groups:
+  node:
+    article:
+      basic: basic
+      advanced: advanced
+      facebook: facebook
+      twitter_cards: twitter_cards
+  taxonomy_term:
+    tags:
+      facebook: facebook
+      twitter_cards: twitter_cards

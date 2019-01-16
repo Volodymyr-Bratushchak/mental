@@ -1,0 +1,41 @@
+uuid: 2658091d-29cd-455b-9401-d30ec7c14209
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.photo_paragraph.field_photo
+    - field.field.paragraph.photo_paragraph.field_text
+    - field.field.paragraph.photo_paragraph.field_title
+    - paragraphs.paragraphs_type.photo_paragraph
+  module:
+    - image
+    - text
+id: paragraph.photo_paragraph.default
+targetEntityType: paragraph
+bundle: photo_paragraph
+mode: default
+content:
+  field_photo:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

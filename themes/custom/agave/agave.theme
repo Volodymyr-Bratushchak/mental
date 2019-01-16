@@ -1,0 +1,65 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the theme agave.
+ */
+
+/**
+ * Implements hook_preprocess_page() 
+ */
+function agave_preprocess_page(array &$variables) {
+  $current_time =  \Drupal::time()->getCurrentTime();
+  $hour = \Drupal::service('date.formatter')->format($current_time, 'custom', 'G', drupal_get_user_timezone());
+  $variables['hour'] = $hour;
+
+  if (\Drupal::currentUser()->isAnonymous()) {
+    \Drupal::service('page_cache_kill_switch')->trigger();
+  }
+
+  // Default time of day
+  $time_of_day = 'day';
+  // Current time_of_day
+  if ( $hour < 4 || $hour >= 21 ) {
+    $time_of_day = 'night';
+  }
+  elseif ( $hour >= 4 && $hour < 10 ) {
+    $time_of_day = 'morning';
+  }
+  elseif ( $hour >= 10 && $hour < 18 ) {
+    $time_of_day = 'day';
+  }
+  elseif ( $hour >= 18 && $hour < 21 ) {
+    $time_of_day = 'evening';
+  }
+
+  // Choosing font_image background of site
+  switch ($time_of_day) {
+    case 'night':
+      $variables['font_image'] = '/images/night.jpg';
+      break;
+    case 'morning':
+      $variables['font_image'] = '/images/morning.jpg';
+      break;
+    case 'day':
+      $variables['font_image'] = '/images/day.jpg';
+      break;
+    case 'evening':
+      $variables['font_image'] = '/images/evening.jpg';
+      break;
+  }
+}
+
+function agave_preprocess_node(&$variables){
+//  $variables['top_tag'] = $variables['content']['field_tags'][0]['#title'];
+}
+
+
+function agave_preprocess_field(&$variables) {
+  if (($variables['element']['#field_name'] == 'field_tags')) {
+    $variables['social']['article_title'] = $variables['element']['#object']->getTitle();
+    $variables['social']['article_nid'] = $variables['element']['#object']->id();
+    $variables['social']['article_describe'] = $variables['element']['#object']->get('field_describe')-> getValue()[0]['value'];
+    $variables['social']['article_image'] = $variables['element']['#object']->field_photo->entity->uri->value;
+  }
+}

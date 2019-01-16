@@ -1,4 +1,4 @@
-uuid: 4af4bd15-3149-4288-aa60-1c92799fb359
+uuid: bf3f640b-9fea-4aa9-a924-b1b38ff70ef4
 langcode: en
 status: true
 dependencies:
@@ -13,9 +13,12 @@ entity_type: node
 bundle: article
 label: Posted
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    default_date_type: now
+    default_date: now
 default_value_callback: ''
 settings: {  }
 field_type: datetime

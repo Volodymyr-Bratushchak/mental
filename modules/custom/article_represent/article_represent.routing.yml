@@ -1,0 +1,7 @@
+article_represent.page:
+  path: '/article_represent'
+  defaults:
+    _title: 'Article Represent'
+    _controller: 'Drupal\article_represent\Controller\ArticleRepresentController::content'
+  requirements:
+    _permission: 'access content'

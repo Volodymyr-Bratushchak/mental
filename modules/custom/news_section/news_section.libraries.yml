@@ -1,0 +1,11 @@
+news_section:
+  version: 1.x
+  js:
+    js/news_section.js: {}
+  css:
+    theme:
+      css/news_section.css: {}
+  dependencies:
+    - core/jquery
+
+    

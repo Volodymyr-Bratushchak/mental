@@ -1,0 +1,9 @@
+news_section.controller:
+  path: '/news_section/{section}'
+  defaults:
+    _title: 'News Section'
+    _controller: 'Drupal\news_section\Controller\NewsSectionController::content'
+    _block: 'Drupal\news_section\Plugin\Block\NewsSectionBlock'
+  requirements:
+    _permission: 'access content'
+

@@ -1,0 +1,22 @@
+uuid: 320d8c81-289f-468c-9b20-86a06ff7ac4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - agave
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: agave_messages
+theme: agave
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

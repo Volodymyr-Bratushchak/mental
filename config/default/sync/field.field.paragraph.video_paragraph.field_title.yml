@@ -1,0 +1,21 @@
+uuid: d5e54e43-c069-4c5c-9c13-dd9e442801ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.video_paragraph
+  module:
+    - text
+id: paragraph.video_paragraph.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: video_paragraph
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

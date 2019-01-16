@@ -1,0 +1,12 @@
+home_page_slider:
+  version: 1.x
+  js:
+    js/front.js: {}
+    libraries/slick/slick/slick.min.js: {}
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      libraries/slick/slick/slick.css: {}
+      css/front.css: {}
+  dependencies:
+    - core/jquery

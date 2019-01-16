@@ -1,0 +1,82 @@
+{{ attach_library('header_menu/header_menu') }}
+<div class="header_menu">
+  <a href="/">
+    MF
+  </a>
+
+  <div>
+    <ul>
+      <li class="header_bar">
+        <a href="/">
+          SMART SHOPPING
+        </a>
+      </li>
+      <li class="header_bar">
+        <a href="/">
+          QUIZZES
+        </a>
+      </li>
+      <li class="header_bar">
+        <a href="/">
+          LISTS
+        </a>
+      </li>
+      <li class="header_bar">
+        <a href="/">
+          VIDEOS
+        </a>
+      </li>
+      <li class="header_bar">
+        <a href="/">
+          AMAZING FACTS
+        </a>
+      </li>
+      <li class="header_bar">
+        <a href="/">
+          <span class="glyphicon glyphicon-shopping-cart"></span> SHOP
+        </a>
+      </li>
+      <li class="header_bar">
+        <a href="https://twitter.com/">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+      <li class="header_bar">
+        <a href="https://www.facebook.com/">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </li>
+      <li class="header_bar">
+        <a href="https://www.instagram.com/">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </li>
+      <li class="header_bar">
+        <a href="https://youtube.com/">
+          <i class="fa fa-youtube"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="menu_button">
+    Menu
+  </div>
+</div>
+  <div class="menu_items">
+  {% for section_name, section in menu_items %}
+    <div class="section_name">
+      <h3>{{ section_name }}</h3>
+      <ul class="menu_list">
+        {% for item in section %}
+          <li>
+            <a href="/taxonomy/term/{{ item.tid }}">
+              <p>{{ item.name }}</p>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
+
+

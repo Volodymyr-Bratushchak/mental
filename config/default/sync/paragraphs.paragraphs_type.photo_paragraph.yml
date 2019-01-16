@@ -1,0 +1,9 @@
+uuid: 722ec479-28e9-4f95-9559-5fb1e2f174fa
+langcode: en
+status: true
+dependencies: {  }
+id: photo_paragraph
+label: 'Photo paragraph'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

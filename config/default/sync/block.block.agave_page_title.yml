@@ -1,0 +1,20 @@
+uuid: 27e4ff53-843f-4f72-ada7-1f3e18f36d4b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - agave
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: agave_page_title
+theme: agave
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

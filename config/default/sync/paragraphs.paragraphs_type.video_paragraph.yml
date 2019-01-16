@@ -1,0 +1,9 @@
+uuid: d5b1130f-252f-4daa-8b6b-0bf9cfa6cdbc
+langcode: en
+status: true
+dependencies: {  }
+id: video_paragraph
+label: 'Video paragraph'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

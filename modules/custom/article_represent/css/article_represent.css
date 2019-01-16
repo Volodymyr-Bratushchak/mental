@@ -1,0 +1,35 @@
+#question-list {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  background-color: cadetblue;
+  width: 100%;
+}
+
+#question-list td, #question-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#question-list tr:nth-child(every) {
+  background-color: #f2f2f2;
+}
+
+#question-list tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+#question-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.question-text p{
+  color: whitesmoke;
+  background-color: cadetblue;
+  border: 1px solid #ddd;
+  opacity: 50%;
+}

@@ -1,0 +1,26 @@
+uuid: 2b17a323-ef48-4153-a9df-627bd82f5f94
+langcode: en
+status: true
+dependencies:
+  module:
+    - news_section
+    - system
+  theme:
+    - omega_simple_starterkit
+id: omega_simple_starterkit_newssectionblock_2
+theme: omega_simple_starterkit
+region: content
+weight: -6
+provider: null
+plugin: news_section
+settings:
+  id: news_section
+  label: 'News Section Block'
+  provider: news_section
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: true
+    context_mapping: {  }

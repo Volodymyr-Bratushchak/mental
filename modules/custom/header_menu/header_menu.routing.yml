@@ -1,0 +1,8 @@
+header_menu.controller:
+  path: '/header_menu'
+  defaults:
+    _title: 'Header Menu'
+    _block: 'Drupal\header_menu\Plugin\Block\HeaderMenuBlock'
+  requirements:
+    _permission: 'access content'
+

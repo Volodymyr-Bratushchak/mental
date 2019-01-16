@@ -1,0 +1,6 @@
+name: Article Represent
+description: 'Page for Article Represent'
+package: custom
+type: module
+core: 8.x
+configure: 'Article Represent'

@@ -1,0 +1,25 @@
+agave:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for the agave theme'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the agave.libraries.yml file.'
+    scss: 
+      style/css/agave.css: 'style/scss/agave.scss'
+  version: VERSION
+  js:
+    js/agave.js: {}
+  css:
+    theme:
+      style/css/agave.css: {}
+      style/css/chess_view.css: {}
+      https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css: {}
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css: {}
+  layout:
+      #style/css/layout/some-layout-file.css: {}
+    component:
+      #style/css/components/some-component.css: {}
+  dependencies:
+    - core/jquery
+
+    

@@ -1,0 +1,20 @@
+uuid: 3855c6b6-1ad9-4dd2-999b-a9ceab6cadd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - header_menu
+  theme:
+    - omega
+id: omega_headermenublock
+theme: omega
+region: content
+weight: -7
+provider: null
+plugin: header_menu
+settings:
+  id: header_menu
+  label: 'Header Menu Block'
+  provider: header_menu
+  label_display: '0'
+visibility: {  }

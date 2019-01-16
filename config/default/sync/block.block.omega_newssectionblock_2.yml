@@ -1,0 +1,26 @@
+uuid: 9ca4c204-a4a4-42b8-8914-e072a50cb59a
+langcode: en
+status: true
+dependencies:
+  module:
+    - news_section
+    - system
+  theme:
+    - omega
+id: omega_newssectionblock_2
+theme: omega
+region: content
+weight: -6
+provider: null
+plugin: news_section
+settings:
+  id: news_section
+  label: 'News Section Block'
+  provider: news_section
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: true
+    context_mapping: {  }

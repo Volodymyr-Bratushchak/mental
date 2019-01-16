@@ -1,0 +1,34 @@
+uuid: 4ce8c08c-9de0-4199-910f-1abc188da18d
+langcode: en
+status: true
+dependencies:
+  module:
+    - news_section
+    - node
+    - system
+  theme:
+    - bartik
+id: newssectionblock
+theme: bartik
+region: content
+weight: -1
+provider: null
+plugin: news_section
+settings:
+  id: news_section
+  label: 'News Section Block'
+  provider: news_section
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /news_section
+    negate: false
+    context_mapping: {  }

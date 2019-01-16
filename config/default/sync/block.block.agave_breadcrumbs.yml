@@ -1,0 +1,22 @@
+uuid: 7db847de-3af9-40bb-8e3a-53263664b7f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - agave
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: agave_breadcrumbs
+theme: agave
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

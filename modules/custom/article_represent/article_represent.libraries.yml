@@ -1,0 +1,11 @@
+contact_pager:
+  version: 1.x
+  css:
+    theme:
+      css/article_represent.css: {}
+  js:
+  dependencies:
+    - core/jquery
+    - core/drupal.dialog.ajax
+    - core/ajax
+

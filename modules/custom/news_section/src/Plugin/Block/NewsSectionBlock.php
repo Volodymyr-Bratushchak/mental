@@ -24,10 +24,15 @@ class NewsSectionBlock extends BlockBase {
    */
   public function build() {
     $terms = \Drupal::entityManager()->getStorage('taxonomy_term')->loadTree('Tags');
+    $parent_term_name = 'Sections';
+    $parent_term = \Drupal::entityTypeManager()
+      ->getStorage('taxonomy_term')
+      ->loadByProperties(['name' => $parent_term_name]);
+    $parent_id = reset($parent_term)->id();
     $sections = [];
     foreach ($terms as $term) {
       $parent = $term->parents[0];
-      if ($parent == 7) {
+      if ($parent == $parent_id) {
         $sections[] = [
           'tid' => $term->tid,
           'name' => $term->name,

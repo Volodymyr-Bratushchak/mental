@@ -2,7 +2,7 @@ module:
   admin_toolbar: 0
   admin_toolbar_links_access_filter: 0
   admin_toolbar_tools: 0
-  article_represent: 0
+  article_slider: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -14,24 +14,35 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  ctools: 0
   datetime: 0
   dblog: 0
   devel: 0
   devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_reference: 0
   entity_reference_revisions: 0
+  fact: 0
+  fact_generator: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
+  footer_menu: 0
   header_menu: 0
   help: 0
   history: 0
   image: 0
   instagram_block: 0
   kint: 0
+  layout_discovery: 0
+  libraries: 0
   link: 0
+  mailchimp: 0
+  mailchimp_campaign: 0
+  mailchimp_lists: 0
+  mailchimp_signup: 0
   menu_ui: 0
   metatag: 0
   metatag_app_links: 0
@@ -45,12 +56,17 @@ module:
   node: 0
   options: 0
   page_cache: 0
+  page_manager: 0
+  page_manager_ui: 0
+  panels: 0
+  panels_ipe: 0
   paragraphs_type_permissions: 0
   path: 0
   quickedit: 0
   rdf: 0
   search: 0
   shortcut: 0
+  subscribe_us: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -58,7 +74,9 @@ module:
   toolbar: 0
   tour: 0
   user: 0
+  video_channel: 0
   video_embed_field: 0
+  views_exclude_previous: 0
   views_ui: 0
   menu_link_content: 1
   views: 10

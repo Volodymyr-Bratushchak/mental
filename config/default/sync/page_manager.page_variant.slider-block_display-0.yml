@@ -1,0 +1,32 @@
+uuid: f735c833-f004-4065-859a-8ba109390882
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.slider
+  module:
+    - article_slider
+id: slider-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks:
+    61ab918d-ba89-44e7-8647-7c02fe1227f8:
+      id: article_slider
+      label: 'Article Slider'
+      provider: article_slider
+      label_display: '0'
+      region: top
+      weight: 0
+      uuid: 61ab918d-ba89-44e7-8647-7c02fe1227f8
+      context_mapping: {  }
+  id: block_display
+  uuid: 837b707d-bcb6-47af-a401-c2abaafde4de
+  label: null
+  weight: 0
+  page_title: 'Slider for articles'
+page: slider
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

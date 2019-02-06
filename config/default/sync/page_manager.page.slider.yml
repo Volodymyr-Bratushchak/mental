@@ -1,0 +1,12 @@
+uuid: 663e340b-cbd4-42be-9119-4efc5c6f5a94
+langcode: en
+status: true
+dependencies: {  }
+id: slider
+label: Slider
+description: ''
+use_admin_theme: false
+path: /slider
+access_logic: and
+access_conditions: {  }
+parameters: {  }

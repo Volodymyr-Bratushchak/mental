@@ -1,0 +1,38 @@
+uuid: 70fc6d10-7df0-44c8-95fe-2b01c9b225e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.footer
+  module:
+    - footer_menu
+    - panels
+id: footer-panels_variant-0
+label: 'Panels footer'
+variant: panels_variant
+variant_settings:
+  blocks:
+    811d2c99-a769-4bb0-bb4a-1df9f46694e8:
+      id: footer_menu
+      label: 'Footer Menu Block'
+      provider: footer_menu
+      label_display: '0'
+      region: content
+      weight: 0
+      uuid: 811d2c99-a769-4bb0-bb4a-1df9f46694e8
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 5d8b101c-5004-4056-ba7a-83890ac968a2
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: footer-panels_variant-0
+  builder: standard
+page: footer
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

@@ -1,0 +1,32 @@
+uuid: 7ca0a975-421f-4b90-9956-c733df38ffcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.video_block
+  module:
+    - video_channel
+id: video_block-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks:
+    3dae6aef-4eaa-4929-88a3-d332dad8f199:
+      id: video_channel
+      label: 'Video Channel'
+      provider: video_channel
+      label_display: '0'
+      region: top
+      weight: 0
+      uuid: 3dae6aef-4eaa-4929-88a3-d332dad8f199
+      context_mapping: {  }
+  id: block_display
+  uuid: ae77841e-2a60-419e-bd96-cb0d6727fb29
+  label: null
+  weight: 0
+  page_title: 'Video block'
+page: video_block
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

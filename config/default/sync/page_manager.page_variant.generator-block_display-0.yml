@@ -1,0 +1,32 @@
+uuid: 52d4825b-7e14-4e94-b6c8-bf4721a8cfc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.generator
+  module:
+    - fact_generator
+id: generator-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks:
+    d03602bc-987f-44c7-b162-b351458fd812:
+      id: fact_generator
+      label: 'Fact Generator Block'
+      provider: fact_generator
+      label_display: '0'
+      region: top
+      weight: 0
+      uuid: d03602bc-987f-44c7-b162-b351458fd812
+      context_mapping: {  }
+  id: block_display
+  uuid: d35a4be8-8411-4d3b-9a7f-182f7bc6bbed
+  label: null
+  weight: 0
+  page_title: 'Fact generator'
+page: generator
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

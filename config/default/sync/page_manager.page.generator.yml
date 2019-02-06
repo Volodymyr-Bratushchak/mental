@@ -1,0 +1,12 @@
+uuid: 288f2ee1-755e-4a04-b6cf-753bf25b2e12
+langcode: en
+status: true
+dependencies: {  }
+id: generator
+label: Generator
+description: ''
+use_admin_theme: false
+path: /generator
+access_logic: and
+access_conditions: {  }
+parameters: {  }

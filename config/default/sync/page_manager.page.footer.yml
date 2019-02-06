@@ -1,0 +1,12 @@
+uuid: b2932b6d-1be0-44a1-89f5-6f32f506cdfd
+langcode: en
+status: true
+dependencies: {  }
+id: footer
+label: Footer
+description: ''
+use_admin_theme: false
+path: /footer
+access_logic: and
+access_conditions: {  }
+parameters: {  }

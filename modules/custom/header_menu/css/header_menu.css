@@ -30,7 +30,13 @@
   color: red;
 }
 
-.header_menu #menu-button {
+.header_menu #menu-button{
   display: inline-block;
   float: left;
 }
+
+.section_name{
+  display: inline-block;
+  float: left;
+  width: 33%;
+ }

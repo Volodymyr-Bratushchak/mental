@@ -1,0 +1,8 @@
+video_channel.settings:
+  path: '/admin/config/video_channel'
+  defaults:
+    _title: 'Video Channel'
+    _block: 'Drupal\video_channel\Plugin\Block\VideoChannelBlock'
+    _form: '\Drupal\video_channel\Form\VideoChannelConfigurationForm'
+  requirements:
+    _permission: 'administer site configuration'

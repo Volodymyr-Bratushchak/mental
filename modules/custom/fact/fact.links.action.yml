@@ -1,0 +1,11 @@
+entity.fact.add_form:
+  route_name: entity.fact.add_page
+  title: 'Add Fact'
+  appears_on:
+    - entity.fact.collection
+entity.fact_type.add_form:
+  route_name: entity.fact_type.add_form
+  title: 'Add Fact type'
+  appears_on:
+    - entity.fact_type.collection
+

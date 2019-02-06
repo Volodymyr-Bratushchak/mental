@@ -1,0 +1,6 @@
+name: Article Slider
+description: 'Custom module for owl carusel block'
+package: custom
+type: module
+core: 8.x
+configure: 'Article Slider'

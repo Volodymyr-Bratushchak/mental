@@ -1,0 +1,47 @@
+.menu_items {
+  display: none;
+}
+
+.menu_items-drop{
+  display: block;
+}
+
+.footer_menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer_menu li {
+  float: left;
+}
+
+.footer_menu a {
+  float: left;
+  display: inline-block;
+  color: #111;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+.footer_menu a:hover {
+  color: red;
+}
+
+.footer_menu #menu-button{
+  display: inline-block;
+  float: left;
+}
+
+.section_name{
+  display: inline-block;
+  float: left;
+  width: 33%;
+ }
+
+.footer-section .column {
+  width: 50%;
+  display: block;
+}

@@ -1,0 +1,6 @@
+name: Fact Generator
+description: 'Custom module for genrating facts'
+package: custom
+type: module
+core: 8.x
+configure: 'Fact Generator'

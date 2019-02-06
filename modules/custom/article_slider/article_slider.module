@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme() to add the template definition.
+ **/
+
+function article_slider_theme($existing, $type, $theme, $path) {
+  $theme = [];
+  $theme['article_slider_template'] = [
+    'template' => 'article-slider-template',
+    'variables' => [
+      'slides' => NULL,
+    ],
+  ];
+  return $theme;
+}
+

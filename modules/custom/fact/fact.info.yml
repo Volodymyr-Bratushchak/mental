@@ -1,0 +1,5 @@
+name: 'Fact'
+type: module
+description: 'The module for creating custom entity Fact'
+core: 8.x
+package: 'Custom entities'

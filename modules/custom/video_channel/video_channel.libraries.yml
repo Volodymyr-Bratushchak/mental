@@ -1,0 +1,17 @@
+video_channel:
+  version: 1.x
+  css:
+    theme:
+      css/youtubechannel.css: {} 
+#      includes/slick/slick/slick-theme.css: {}
+      includes/slick/slick/slick.css: {}
+  js:
+    js/youtubechannel.js: {}
+    js/front.js: {}
+    includes/slick/slick/slick.js: {}
+    includes/slick/slick/slick.min.js: {}
+
+  dependencies:
+  - core/jquery
+
+

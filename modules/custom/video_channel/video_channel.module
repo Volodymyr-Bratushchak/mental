@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme() to add the template definition.
+ **/
+
+function video_channel_theme($existing, $type, $theme, $path) {
+  $theme = [];
+  $theme['video_channel_template'] = [
+    'template' => 'video-channel-template',
+    'variables' => [
+      'youtube_content' => NULL,
+    ],
+  ];
+  return $theme;
+}
+

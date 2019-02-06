@@ -1,0 +1,7 @@
+article_slider:
+  path: '/article_slider'
+  defaults:
+    _title: 'Article Slider'
+    _block: 'Drupal\article_slider\Plugin\Block\ArticleSliderBlock'
+  requirements:
+    _permission: 'access content'

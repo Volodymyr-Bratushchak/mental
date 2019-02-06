@@ -1,0 +1,27 @@
+{{ attach_library('article_slider/article_slider') }}
+<div class="art-slider" style="width: 1000px;
+">
+  {% for slide in slides %}
+    <div class="slider_slide"
+      style="
+        background: url('{{ slide.image }}');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 440px;
+     ">
+    <div class="slider_lable"
+      style="
+        color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 250%;
+    ">
+        {{ slide.name }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

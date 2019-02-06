@@ -1,0 +1,14 @@
+article_slider:
+  version: 1.x
+  js:
+    js/front.js: {}
+    includes/slick/slick/slick.js: {}
+    includes/slick/slick/slick.min.js: {}
+  css:
+    theme:
+      includes/slick/slick/slick-theme.css: {}
+      includes/slick/slick/slick.css: {}
+  dependencies:
+  - core/jquery
+
+

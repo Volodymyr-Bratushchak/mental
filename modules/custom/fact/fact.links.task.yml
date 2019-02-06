@@ -1,0 +1,23 @@
+# Fact routing definition
+
+entity.fact.canonical:
+  route_name: entity.fact.canonical
+  base_route: entity.fact.canonical
+  title: 'View'
+
+entity.fact.edit_form:
+  route_name: entity.fact.edit_form
+  base_route: entity.fact.canonical
+  title: 'Edit'
+
+entity.fact.version_history:
+  route_name: entity.fact.version_history
+  base_route: entity.fact.canonical
+  title: 'Revisions'
+
+entity.fact.delete_form:
+  route_name:  entity.fact.delete_form
+  base_route:  entity.fact.canonical
+  title: Delete
+  weight: 10
+

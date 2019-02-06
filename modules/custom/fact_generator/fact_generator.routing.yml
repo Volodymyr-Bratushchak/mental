@@ -1,0 +1,9 @@
+fact_generator.form:
+  path: '/fact_generator/{section}'
+  defaults:
+    _title: 'Fact Generator'
+    _form: 'Drupal\fact_generator\Form\FactGeneratorForm'
+    _block: 'Drupal\fact_generator\Plugin\Block\FactGeneratorBlock'
+  requirements:
+    _permission: 'access content'
+

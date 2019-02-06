@@ -5,8 +5,8 @@
     var url = $(this).attr("href");
     var items = [];
     $.getJSON(url, function (data) {
-      $.each(data, function (key, val) {
-        items.push( "<div id='" + val.nid + "'><a href='/node/" + val.nid + "'>" + val.title + "<img src='" + val.image + "'></a></div>" );
+      $.each(data, function (key, node) {
+        items.push( "<div id='" + node.nid + "'><a href='/node/" + node.nid + "'>" + node.title + "<img src='" + node.image + "'></a></div>" );
       });
       $( "<div/>", {
         "id": "news_section",

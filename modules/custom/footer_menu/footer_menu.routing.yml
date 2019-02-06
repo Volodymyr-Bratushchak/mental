@@ -1,0 +1,8 @@
+footer_menu.controller:
+  path: '/footer_menu'
+  defaults:
+    _title: 'Footer Menu'
+    _block: 'Drupal\footer_menu\Plugin\Block\FooterMenuBlock'
+  requirements:
+    _permission: 'access content'
+

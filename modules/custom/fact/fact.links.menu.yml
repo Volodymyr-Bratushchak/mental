@@ -1,0 +1,18 @@
+
+# Fact menu items definition
+entity.fact.collection:
+  title: 'Fact list'
+  route_name: entity.fact.collection
+  description: 'List Fact entities'
+  parent: system.admin_structure
+  weight: 100
+
+
+# Fact type menu items definition
+entity.fact_type.collection:
+  title: 'Fact type'
+  route_name: entity.fact_type.collection
+  description: 'List Fact type (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

@@ -1,0 +1,58 @@
+<?php
+
+/**
+ * @file
+ * Contains fact.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function fact_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the fact module.
+    case 'help.page.fact':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function fact_theme() {
+  $theme = [];
+  $theme['fact'] = [
+    'render element' => 'elements',
+    'file' => 'fact.page.inc',
+    'template' => 'fact',
+  ];
+  $theme['fact_content_add_list'] = [
+    'render element' => 'content',
+    'variables' => ['content' => NULL],
+    'file' => 'fact.page.inc',
+  ];
+  return $theme;
+}
+
+/**
+* Implements hook_theme_suggestions_HOOK().
+*/
+function fact_theme_suggestions_fact(array $variables) {
+  $suggestions = [];
+  $entity = $variables['elements']['#fact'];
+  $sanitized_view_mode = strtr($variables['elements']['#view_mode'], '.', '_');
+
+  $suggestions[] = 'fact__' . $sanitized_view_mode;
+  $suggestions[] = 'fact__' . $entity->bundle();
+  $suggestions[] = 'fact__' . $entity->bundle() . '__' . $sanitized_view_mode;
+  $suggestions[] = 'fact__' . $entity->id();
+  $suggestions[] = 'fact__' . $entity->id() . '__' . $sanitized_view_mode;
+  return $suggestions;
+}

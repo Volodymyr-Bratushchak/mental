@@ -1,0 +1,30 @@
+add fact entities:
+  title: 'Create new Fact entities'
+
+administer fact entities:
+  title: 'Administer Fact entities'
+  description: 'Allow to access the administration form to configure Fact entities.'
+  restrict access: true
+
+delete fact entities:
+  title: 'Delete Fact entities'
+
+edit fact entities:
+  title: 'Edit Fact entities'
+
+view published fact entities:
+  title: 'View published Fact entities'
+
+view unpublished fact entities:
+  title: 'View unpublished Fact entities'
+
+view all fact revisions:
+  title: 'View all Fact revisions'
+
+revert all fact revisions:
+  title: 'Revert all Fact revisions'
+  description: 'Role requires permission <em>view Fact revisions</em> and <em>edit rights</em> for fact entities in question or <em>administer fact entities</em>.'
+
+delete all fact revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Fact revisions</em> and <em>delete rights</em> for fact entities in question or <em>administer fact entities</em>.'

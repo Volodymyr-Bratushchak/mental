@@ -1,0 +1,71 @@
+uuid: b21809a3-469c-42bc-ac9e-f6e248746f8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.video
+    - views.view.video_list_section
+  module:
+    - footer_menu
+    - header_menu
+    - panels
+    - video_channel
+    - views
+id: video-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    d17d173c-efb7-4dfe-b8c7-e8c241f38b82:
+      id: header_menu
+      label: 'Header Menu Block'
+      provider: header_menu
+      label_display: '0'
+      region: content
+      weight: -1
+      uuid: d17d173c-efb7-4dfe-b8c7-e8c241f38b82
+      context_mapping: {  }
+    f7505998-5432-4125-abae-e2b22b3b5671:
+      id: video_channel
+      label: 'Video Channel'
+      provider: video_channel
+      label_display: '0'
+      region: content
+      weight: 0
+      uuid: f7505998-5432-4125-abae-e2b22b3b5671
+      context_mapping: {  }
+    1a14bedf-945e-422d-95d8-9c5eb465c0e7:
+      id: 'views_block:video_list_section-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: 1a14bedf-945e-422d-95d8-9c5eb465c0e7
+      context_mapping: {  }
+    92d7b9e0-61dd-4cc0-8cd2-46a0a13cd639:
+      id: footer_menu
+      label: 'Footer Menu Block'
+      provider: footer_menu
+      label_display: '0'
+      region: content
+      weight: 2
+      uuid: 92d7b9e0-61dd-4cc0-8cd2-46a0a13cd639
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 4f38cd0d-5116-4a6c-8c5a-ef3b66f7583c
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: video-panels_variant-0
+  builder: standard
+page: video
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

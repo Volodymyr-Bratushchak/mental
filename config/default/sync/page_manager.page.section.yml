@@ -1,12 +1,12 @@
-uuid: ccf05582-0943-4fbf-8ce3-9232406088bd
+uuid: 008ec514-3347-4696-8910-0a62cd4ec3d2
 langcode: en
 status: true
 dependencies: {  }
-id: homepage
-label: Homepage
+id: section
+label: Section
 description: ''
 use_admin_theme: false
-path: /homepage
+path: '/term/{taxonomy_name}'
 access_logic: and
 access_conditions: {  }
 parameters: {  }

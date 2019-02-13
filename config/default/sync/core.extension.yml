@@ -34,7 +34,6 @@ module:
   help: 0
   history: 0
   image: 0
-  instagram_block: 0
   kint: 0
   layout_discovery: 0
   libraries: 0
@@ -58,6 +57,7 @@ module:
   page_cache: 0
   page_manager: 0
   page_manager_ui: 0
+  pager: 0
   panels: 0
   panels_ipe: 0
   paragraphs_type_permissions: 0
@@ -77,6 +77,7 @@ module:
   video_channel: 0
   video_embed_field: 0
   views_exclude_previous: 0
+  views_taxonomy_term_name_depth: 0
   views_ui: 0
   menu_link_content: 1
   views: 10

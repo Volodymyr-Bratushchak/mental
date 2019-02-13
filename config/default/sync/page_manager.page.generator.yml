@@ -6,7 +6,7 @@ id: generator
 label: Generator
 description: ''
 use_admin_theme: false
-path: /generator
+path: /amazingfactgenerator
 access_logic: and
 access_conditions: {  }
 parameters: {  }

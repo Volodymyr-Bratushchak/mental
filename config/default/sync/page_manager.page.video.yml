@@ -1,12 +1,12 @@
-uuid: db862a80-c553-4bcf-8af4-1c270e81aeaa
+uuid: 449a6c40-28e8-4348-ac24-248dc5d90cd6
 langcode: en
 status: true
 dependencies: {  }
-id: video_block
-label: Video_block
+id: video
+label: Video
 description: ''
 use_admin_theme: false
-path: /video_block
+path: /video
 access_logic: and
 access_conditions: {  }
 parameters: {  }

@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - page_manager.page.generator
+    - views.view.see_also
   module:
     - fact_generator
+    - views
 id: generator-block_display-0
 label: 'Block page'
 variant: block_display
@@ -13,18 +15,29 @@ variant_settings:
   blocks:
     d03602bc-987f-44c7-b162-b351458fd812:
       id: fact_generator
-      label: 'Fact Generator Block'
+      label: 'Amazing Fact Generator'
       provider: fact_generator
-      label_display: '0'
+      label_display: visible
       region: top
       weight: 0
       uuid: d03602bc-987f-44c7-b162-b351458fd812
+      context_mapping: {  }
+    c38128ca-78fa-4771-bbcb-6e0f12816801:
+      id: 'views_block:see_also-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: 0
+      uuid: c38128ca-78fa-4771-bbcb-6e0f12816801
       context_mapping: {  }
   id: block_display
   uuid: d35a4be8-8411-4d3b-9a7f-182f7bc6bbed
   label: null
   weight: 0
-  page_title: 'Fact generator'
+  page_title: ''
 page: generator
 weight: 0
 selection_criteria: {  }

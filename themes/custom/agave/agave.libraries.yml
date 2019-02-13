@@ -9,6 +9,7 @@ agave:
   version: VERSION
   js:
     js/agave.js: {}
+    js/player.js: {}
   css:
     theme:
       style/css/agave.css: {}

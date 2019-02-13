@@ -2807,6 +2807,53 @@
         }
     },
     {
+        "name": "drupal/views_taxonomy_term_name_depth",
+        "version": "dev-6.x",
+        "version_normalized": "dev-6.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/views_taxonomy_term_name_depth",
+            "reference": "cc2d12fbaa9f29c04b5f0ea3be645c32785efca5"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-6.x": "6.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-6.x-dev",
+                "datestamp": "1531928921",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "manojapare",
+                "homepage": "https://www.drupal.org/user/2825053"
+            },
+            {
+                "name": "rakesh.gectcr",
+                "homepage": "https://www.drupal.org/user/1177822"
+            }
+        ],
+        "description": "The module provides the Views plugin for Contextual filter with Taxonomy Term Name Depth.",
+        "homepage": "https://www.drupal.org/project/views_taxonomy_term_name_depth",
+        "support": {
+            "source": "http://cgit.drupalcode.org/views_taxonomy_term_name_depth"
+        }
+    },
+    {
         "name": "easyrdf/easyrdf",
         "version": "0.9.1",
         "version_normalized": "0.9.1.0",

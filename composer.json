@@ -19,7 +19,8 @@
         "drupal/devel": "^1.2",
         "drupal/entity": "^1.0",
         "drupal/console": "~1.0",
-        "google/apiclient": "~2.0"
+        "google/apiclient": "~2.0",
+        "drupal/views_taxonomy_term_name_depth": "6.x-dev"
     },
     "replace": {
         "drupal/core": "^8.6"

@@ -1,33 +1,33 @@
 {{ attach_library('header_menu/header_menu') }}
 <div class="header_menu">
-  <a href="/">
+  <a href="/homepage">
     MF
   </a>
 
   <div>
     <ul>
       <li class="header_bar">
-        <a href="/">
+        <a href="/term/16">
           SMART SHOPPING
         </a>
       </li>
       <li class="header_bar">
-        <a href="/">
+        <a href="/quizzes">
           QUIZZES
         </a>
       </li>
       <li class="header_bar">
-        <a href="/">
+        <a href="/lists">
           LISTS
         </a>
       </li>
       <li class="header_bar">
-        <a href="/">
+        <a href="/video">
           VIDEOS
         </a>
       </li>
       <li class="header_bar">
-        <a href="/">
+        <a href="/term/17">
           AMAZING FACTS
         </a>
       </li>
@@ -37,22 +37,22 @@
         </a>
       </li>
       <li class="header_bar">
-        <a href="https://twitter.com/">
+        <a href="https://twitter.com/mental_floss">
           <i class="fa fa-twitter"></i>
         </a>
       </li>
       <li class="header_bar">
-        <a href="https://www.facebook.com/">
+        <a href="https://www.facebook.com/mentalflossmagazine">
           <i class="fa fa-facebook"></i>
         </a>
       </li>
       <li class="header_bar">
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/mental_floss">
           <i class="fa fa-instagram"></i>
         </a>
       </li>
       <li class="header_bar">
-        <a href="https://youtube.com/">
+        <a href="https://www.youtube.com/user/MentalFlossVideo">
           <i class="fa fa-youtube"></i>
         </a>
       </li>
@@ -71,7 +71,7 @@
       <ul class="menu_list">
         {% for item in section %}
           <li>
-            <a href="/taxonomy/term/{{ item.tid }}">
+            <a href="/term/{{ item.tid }}">
               <p>{{ item.name }}</p>
             </a>
           </li>

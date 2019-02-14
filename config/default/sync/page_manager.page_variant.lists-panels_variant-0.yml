@@ -1,0 +1,95 @@
+uuid: 5870b77d-6303-4896-8f72-f0fcccb5a165
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.lists
+    - views.view.preview
+    - views.view.preview_of_one
+    - views.view.twelve
+  module:
+    - footer_menu
+    - header_menu
+    - news_section
+    - panels
+    - views
+id: lists-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    fe5944b4-6e8e-4567-b668-bb39ec04a74c:
+      id: 'views_block:preview_of_one-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: -1
+      uuid: fe5944b4-6e8e-4567-b668-bb39ec04a74c
+      context_mapping: {  }
+    0c87e6d8-ffab-46ed-aaa4-d1e0931beafb:
+      id: 'views_block:preview-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 0c87e6d8-ffab-46ed-aaa4-d1e0931beafb
+      context_mapping: {  }
+    151cb0f2-1a29-4ecf-b5a9-ae71625873bc:
+      id: 'views_block:twelve-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: 151cb0f2-1a29-4ecf-b5a9-ae71625873bc
+      context_mapping: {  }
+    3622b02c-a628-489d-8f91-80ab1d22f142:
+      id: news_section
+      label: 'News Section Block'
+      provider: news_section
+      label_display: '0'
+      region: content
+      weight: 2
+      uuid: 3622b02c-a628-489d-8f91-80ab1d22f142
+      context_mapping: {  }
+    d29bc39e-a70c-4af0-9ddf-03fa606d832b:
+      id: header_menu
+      label: 'Header Menu Block'
+      provider: header_menu
+      label_display: '0'
+      region: content
+      weight: -2
+      uuid: d29bc39e-a70c-4af0-9ddf-03fa606d832b
+      context_mapping: {  }
+    062f0157-bc33-41e1-abb6-e8c90d3a844a:
+      id: footer_menu
+      label: 'Footer Menu Block'
+      provider: footer_menu
+      label_display: '0'
+      region: content
+      weight: 3
+      uuid: 062f0157-bc33-41e1-abb6-e8c90d3a844a
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 5c1d4a16-786b-43b0-884f-aa784cf1b4b6
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: lists-panels_variant-0
+  builder: standard
+page: lists
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

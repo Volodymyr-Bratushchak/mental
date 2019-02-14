@@ -1,0 +1,38 @@
+uuid: 48ff12ec-bef2-474d-9dae-c93ca1e73f26
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.last_news
+  module:
+    - last_news
+    - panels
+id: last_news-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    9474b538-089c-4396-a76e-928eb09f3561:
+      id: last_news
+      label: 'Last News Block'
+      provider: last_news
+      label_display: '0'
+      region: content
+      weight: 0
+      uuid: 9474b538-089c-4396-a76e-928eb09f3561
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 13beb686-7327-4207-bc2f-58a15693bb64
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: last_news-panels_variant-0
+  builder: standard
+page: last_news
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

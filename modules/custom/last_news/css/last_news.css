@@ -1,0 +1,32 @@
+#block_hierarchy_menu, #drop {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #f1f1f1;
+  display: block;
+}
+
+#block_hierarchy_menu h3{
+  cursor: pointer;
+}
+
+#drop li:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+#drop a img{
+  width: 100%;
+}
+
+#close {
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  color: whitesmoke;
+  background-color: red;
+  width: 100%;
+  display: block;
+  padding: 6px 12px;
+}
+

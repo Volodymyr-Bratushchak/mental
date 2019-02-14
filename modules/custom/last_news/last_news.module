@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme() to add the template definition.
+ **/
+
+function last_news_theme($existing, $type, $theme, $path) {
+  $theme = [];
+  $theme['last_news_template'] = [
+    'template' => 'last-news-template',
+    'variables' => [
+      'articles' => NULL,
+    ],
+  ];
+  return $theme;
+}
+

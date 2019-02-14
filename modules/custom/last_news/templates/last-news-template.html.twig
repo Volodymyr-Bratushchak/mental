@@ -1,0 +1,13 @@
+<div>
+  {% for article in articles %}
+    <a href="/node/{{ article.nid }}">
+      <h3>{{ article.title }}</h3>
+    </a>
+    <a href="/term/{{ article.tid }}">
+      <p>{{ article.termine }}</p>
+    </a>
+      {% if loop.index0 == 0 or loop.index0 == 4 %}
+      <img src="{{ article.image }}">
+    {% endif %}
+  {% endfor %}
+</div>

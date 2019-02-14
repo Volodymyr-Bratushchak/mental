@@ -1,0 +1,12 @@
+uuid: a2e70968-46ed-4e70-be72-a956b7baa938
+langcode: en
+status: true
+dependencies: {  }
+id: lists
+label: Lists
+description: ''
+use_admin_theme: false
+path: /lists
+access_logic: and
+access_conditions: {  }
+parameters: {  }

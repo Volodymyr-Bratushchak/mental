@@ -8,6 +8,7 @@ dependencies:
     - views.view.section_front_art
     - views.view.section_three_art
   module:
+    - header_menu
     - news_section
     - panels
     - views
@@ -57,6 +58,15 @@ variant_settings:
       region: content
       weight: 2
       uuid: 667056ae-6b21-4d71-9df1-586e31ad4e4d
+      context_mapping: {  }
+    537f63c6-1265-4d16-b2c2-c2f03acee88d:
+      id: header_menu
+      label: 'Header Menu Block'
+      provider: header_menu
+      label_display: '0'
+      region: content
+      weight: -2
+      uuid: 537f63c6-1265-4d16-b2c2-c2f03acee88d
       context_mapping: {  }
   id: panels_variant
   uuid: 6d574e50-0637-460d-897b-6884ae1b79f1

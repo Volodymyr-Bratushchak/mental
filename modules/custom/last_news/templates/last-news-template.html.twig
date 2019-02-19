@@ -1,0 +1,16 @@
+<div class="side">
+  {% for article in articles %}
+    <div class="last-artile">
+      {% if loop.index0 == 2 or loop.index0 == 4 %}
+        <img src="{{ article.image }}">
+      {% endif %}
+      <a href="/section/{{ article.tid }}">
+        <p>{{ article.termine }}</p>
+      </a>
+      <a href="/node/{{ article.nid }}">
+        <h3>{{ article.title }}</h3>
+      </a>
+    </div>
+  {% endfor %}
+  <button type="button">ALL STORIES!</button>
+</div>

@@ -1,0 +1,8 @@
+last_news.block:
+  path: '/last_news'
+  defaults:
+    _title: 'Last News'
+    _block: 'Drupal\last_news\Plugin\Block\LastNewsBlock'
+  requirements:
+    _permission: 'access content'
+

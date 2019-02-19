@@ -8,5 +8,15 @@
 </div>
 {# AJAX part #}
 <div class="news" id="news_block">
+  <div class="default_section">
+    {% for article in default_art %}
+      <div id= "{{ article.nid }}">
+        <a href="/node/{{ article.nid }}">
+          {{ article.title }}
+          <img src=" {{ article.image  }}">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 {#AJAX part end#}

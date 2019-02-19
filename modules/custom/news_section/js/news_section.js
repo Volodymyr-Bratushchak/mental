@@ -2,6 +2,8 @@
   $('#sections a').off().on('click',(function () {
     event.preventDefault();
     $('#news_section').remove(); // Delete existing
+    $('.default_section').remove(); // Delete default
+
     var url = $(this).attr("href");
     var items = [];
     $.getJSON(url, function (data) {

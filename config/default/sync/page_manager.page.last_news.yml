@@ -1,0 +1,12 @@
+uuid: b3b0faf5-63e3-45b7-a52d-6f4c025e1d8f
+langcode: en
+status: true
+dependencies: {  }
+id: last_news
+label: 'Last news'
+description: ''
+use_admin_theme: false
+path: /last_news
+access_logic: and
+access_conditions: {  }
+parameters: {  }

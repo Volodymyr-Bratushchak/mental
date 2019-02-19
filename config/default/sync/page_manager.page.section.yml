@@ -6,7 +6,7 @@ id: section
 label: Section
 description: ''
 use_admin_theme: false
-path: '/term/{taxonomy_name}'
+path: '/section/{taxonomy_id}'
 access_logic: and
 access_conditions: {  }
 parameters: {  }

@@ -1,0 +1,11 @@
+last_news:
+  version: 1.x
+  js:
+    js/last_news.js: {}
+  css:
+    theme:
+      css/last_news.css: {}
+  dependencies:
+    - core/jquery
+
+    

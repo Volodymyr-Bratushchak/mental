@@ -5,7 +5,6 @@ dependencies:
   config:
     - page_manager.page.homepage
     - views.view.daily_floss
-    - views.view.last_side
     - views.view.preview
     - views.view.preview_of_one
     - views.view.preview_of_two
@@ -16,6 +15,7 @@ dependencies:
     - fact_generator
     - footer_menu
     - header_menu
+    - last_news
     - news_section
     - panels
     - video_channel
@@ -62,17 +62,6 @@ variant_settings:
       region: top
       weight: -7
       uuid: e6fb2194-07ab-4bbf-b20b-80c165366450
-      context_mapping: {  }
-    458be5e3-ceee-4a17-ae0b-b917f1c05d76:
-      id: 'views_block:last_side-block_1'
-      label: ''
-      provider: views
-      label_display: '0'
-      views_label: ''
-      items_per_page: none
-      region: first
-      weight: 0
-      uuid: 458be5e3-ceee-4a17-ae0b-b917f1c05d76
       context_mapping: {  }
     ec6a1e8c-76cb-43aa-b0db-0c43d046de0c:
       id: 'views_block:preview_of_one-block_1'
@@ -177,6 +166,15 @@ variant_settings:
       region: bottom
       weight: -6
       uuid: 4df7d011-a41b-47ab-bf4a-d76b278fc145
+      context_mapping: {  }
+    6c00ccea-f0e2-4928-971b-bb2c4a3b1d32:
+      id: last_news
+      label: 'Last News Block'
+      provider: last_news
+      label_display: '0'
+      region: first
+      weight: 0
+      uuid: 6c00ccea-f0e2-4928-971b-bb2c4a3b1d32
       context_mapping: {  }
   id: panels_variant
   uuid: 4a6629e9-46d3-4b2c-86f0-98e49ba637c0

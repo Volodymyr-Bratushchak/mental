@@ -8,7 +8,6 @@ agave:
       style/css/agave.css: 'style/scss/agave.scss'
   version: VERSION
   js:
-    js/agave.js: {}
     js/player.js: {}
   css:
     theme:

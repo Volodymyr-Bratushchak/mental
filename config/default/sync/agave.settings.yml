@@ -9,15 +9,15 @@ variables:
     defaultHeaderFont: georgia
     defaultBodyFont: helvetica
 features:
-  node_user_picture: 1
-  comment_user_picture: 1
-  comment_user_verification: 1
-  favicon: 1
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
 logo:
-  use_default: 1
+  use_default: true
   path: ''
 favicon:
-  use_default: 1
+  use_default: true
   path: ''
 omega_toggle_intro: 1
 enable_backups: 0
@@ -28,7 +28,7 @@ default_layout: primary
 home_layout: primary
 enable_omegags_layout: 1
 layouts: {  }
-breakpoint_group_primary: agave.default
+breakpoint_group_primary: omega.standard
 node_type_article_layout: primary
 node_type_page_layout: primary
 taxonomy_category_layout: primary
@@ -36,3 +36,21 @@ taxonomy_tags_layout: primary
 edit_this_layout: primary
 _core:
   default_config_hash: BHa049LV0cz9nVKxCc7hqW-FITCwmFTaTDH-ksHmBFI
+compile_scss: 1
+show_compile_warning: 1
+enable_omega_badge: 1
+styles:
+  agave/agave: 1
+  omega/omega: 1
+  omega/omega_html_elements: 1
+  omega/omega_branding: 1
+  omega/omega_breadcrumbs: 1
+  omega/omega_main_menus: 1
+  omega/omega_messages: 1
+  omega/omega_pagers: 1
+  omega/omega_tabs: 1
+  omega/omega_taxonomy_terms: 1
+  omega/omega_forms: 1
+  omega_simple_starterkit/omega_simple_starterkit: 1
+layout-config:
+  non_omegags_info: ''

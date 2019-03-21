@@ -1,0 +1,5 @@
+name: Filter Query
+description: Filter the repeated products and show only one variation.
+package: Custom
+type: module
+core: 8.x

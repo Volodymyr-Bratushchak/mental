@@ -1,0 +1,16 @@
+hierarchy_menu:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Library for the hierarchy_menu module'
+    description: 'Library description. Two files of js and css for hierarchy_menu.'
+  version: VERSION
+  js:
+    js/hierarchy_menu.js: {}
+  css:
+    theme:
+      css/hierarchy_menu.css: {}
+  dependencies:
+    - core/jquery
+
+    

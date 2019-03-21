@@ -44,3 +44,4 @@ class ArticleSliderBlock extends BlockBase {
     ]);
   }
 }
+

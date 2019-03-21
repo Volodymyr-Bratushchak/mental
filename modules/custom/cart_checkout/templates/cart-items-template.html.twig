@@ -1,0 +1,44 @@
+<div>
+  <div>
+    <h1>OK, the item "{{ product.title }}" was added to your cart. What next?</h1>
+    <img src="{{ product.image }}">
+    <h2>{{ product.var_title }}, {{ product.price }}</h2>
+    <h3>Your cart contains {{ cart_info.total_items }} items</h3>
+  </div>
+  <div>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+      </tr>
+      {% for item in build %}
+        <tr>
+          <th>{{ item.title }}</th>
+          <th>{{ item.unit_price }}</th>
+          <th>{{ item.quantity }}</th>
+          <th>{{ item.total_price }}</th>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+  <div>
+    <h3>Total price: </h3>
+    <p>{{ cart_info.total_cart }}</p>
+  </div>
+  <div>
+    <form action="{{ cart_info.checkout }}">
+      <input type="submit" value="Proceed to Checkout" />
+    </form>
+    <a href="/cart">
+      <p>Edit your cart</p>
+    </a>
+  </div>
+  <div>
+    <h2> You May Also Like...</h2>
+  </div>
+  <div>
+    {{ render }}
+  </div>
+</div>

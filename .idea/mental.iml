@@ -9,6 +9,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/behat/mink-browserkit-driver" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/behat/mink-goutte-driver" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/behat/mink-selenium2-driver" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/commerceguys/addressing" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/commerceguys/intl" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dflydev/dot-access-configuration" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dflydev/dot-access-data" />

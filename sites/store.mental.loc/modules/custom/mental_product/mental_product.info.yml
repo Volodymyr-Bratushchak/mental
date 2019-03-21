@@ -1,0 +1,6 @@
+name: Mental Product
+description: 'Form for create products for Mental store.'
+package: custom
+type: module
+core: 8.x
+configure: 'Mental Product'

@@ -1,0 +1,8 @@
+hierarchy_taxonomy.controller:
+  path: '/hierarchy_menu'
+  defaults:
+    _title: 'Hierarchy Menu'
+    _controller: 'Drupal\hierarchy_menu\Controller\HierarchyMenuController::content'
+    _block: 'Drupal\hierarchy_menu\Plugin\Block\HierarchyMenuBlock'
+  requirements:
+    _permission: 'access content'

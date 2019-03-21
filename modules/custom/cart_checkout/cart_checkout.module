@@ -1,0 +1,62 @@
+<?php
+
+use Drupal\Core\Ajax\AjaxResponse;
+use Drupal\Core\Ajax\OpenModalDialogCommand;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_theme() to add the template definition.
+ **/
+
+function cart_checkout_theme($existing, $type, $theme, $path) {
+  $theme = [];
+  $theme['cart_items_template'] = [
+    'template' => 'cart-items-template',
+    'variables' => [
+      'build' => NULL,
+      'cart_info' => NULL,
+      'render' => NULL,
+      'product' => NULL,
+    ],
+  ];
+  return $theme;
+}
+
+function cart_checkout_form_commerce_order_item_add_to_cart_form_alter( &$form, FormStateInterface &$form_state, $form_id ){
+  $current_route_name = \Drupal::service('current_route_match')->getRouteName();
+  if ($current_route_name == 'view.clearance.page_1') {
+    $form['#prefix'] = '<div class="cart_checkout_form">';
+    $form['#suffix'] = '</div>';
+    $form['actions']['submit']['#ajax'] = [
+      'callback' => 'ajax_add_to_cart_callback_modal',
+      'event' => 'click',
+    ];
+    $form['quantity']['#access'] = FALSE;
+  }
+}
+
+function ajax_add_to_cart_callback_modal($form, &$form_state, $form_id) {
+  if ($form_state->getErrors()) {
+    unset($form['#prefix']);
+    unset($form['#suffix']);
+    $form['status_messages'] = [
+      '#type' => 'status_messages',
+      '#weight' => -10,
+    ];
+  } else {
+    $block_manager = \Drupal::service('plugin.manager.block');
+    $config = [];
+    $plugin_block = $block_manager->createInstance('cart_items', $config);
+    $render = $plugin_block->build();
+    $title = 'Your product on the cart! Checkout it!)';
+    $response = new AjaxResponse();
+    $response->addCommand(new OpenModalDialogCommand ($title, $render, [
+      'dialogClass' => 'popup-dialog-class',
+      'width' => '80%',
+      'height' => '600',
+    ]));
+  }
+  return $response;
+}
+
+

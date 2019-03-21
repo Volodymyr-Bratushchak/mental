@@ -1,0 +1,7 @@
+cart_checkout.add_to_cart:
+  path: '/clearance/cart'
+  defaults:
+    _title: 'Add to cart'
+    _block: 'Drupal\cart_checkout\Plugin\Block\CartItemsBlock'
+  requirements:
+    _permission: 'access content'

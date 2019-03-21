@@ -1,0 +1,16 @@
+mental_product.form:
+  path: '/admin/commerce/products/create'
+  defaults:
+    _title: 'Mental Product'
+    _form: 'Drupal\mental_product\Form\MentalProductForm'
+  requirements:
+    _permission: 'access content'
+
+#mental_product.list:
+#  path: '/admin/commerce/products/mental/list'
+#  defaults:
+#    _title: 'Mental Product'
+#    _controller: 'Drupal\mental_product\Controller\MentalProductController::content'
+#  requirements:
+#    _permission: 'access content'
+#

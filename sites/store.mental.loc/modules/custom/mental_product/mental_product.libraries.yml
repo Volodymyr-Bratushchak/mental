@@ -1,0 +1,9 @@
+mental_product:
+  version: 1.x
+  css:
+    theme:
+      css/mental_product.css: {}
+  js:
+  dependencies:
+
+

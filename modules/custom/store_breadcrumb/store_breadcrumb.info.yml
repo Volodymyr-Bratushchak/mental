@@ -1,0 +1,5 @@
+name: Store Breadcrumb
+type: module
+description: Setting breadcrumbs for Product types.
+core: 8.x
+package: Custom

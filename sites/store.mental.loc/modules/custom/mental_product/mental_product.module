@@ -1,0 +1,17 @@
+<?php
+//
+///**
+// * Implements hook_theme() to add the template definition.
+// **/
+//
+//function mental_product_theme($existing, $type, $theme, $path) {
+//  $theme = [];
+//  $theme['mental_product_list_template'] = [
+//    'template' => 'mental-product-list-template',
+//    'variables' => [
+//      'product_list' => NULL,
+//    ],
+//  ];
+//  return $theme;
+//}
+//

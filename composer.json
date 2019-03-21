@@ -8,8 +8,6 @@
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/paragraphs": "^1.5",
         "drupal/entity_reference_revisions": "^1.6",
-        "drupal/instagram_block": "^2.0",
-        "drupal/social_media_links": "2.x-dev",
         "drupal/sharethis": "^2.0",
         "drupal/easy_social": "^3.0",
         "drupal/metatag": "^1.7",
@@ -20,7 +18,12 @@
         "drupal/entity": "^1.0",
         "drupal/console": "~1.0",
         "google/apiclient": "~2.0",
-        "drupal/views_taxonomy_term_name_depth": "6.x-dev"
+        "drupal/views_taxonomy_term_name_depth": "6.x-dev",
+        "drupal/commerce": "^2.12",
+        "drupal/address": "^1.4",
+        "drupal/easy_breadcrumb": "^1.8",
+        "drupal/breadcrumb_manager": "^1.0",
+        "drupal/commerce_paypal": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.6"

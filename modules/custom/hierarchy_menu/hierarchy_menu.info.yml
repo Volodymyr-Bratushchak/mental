@@ -1,0 +1,7 @@
+name: Hierarchy Menu
+description: 'Custom module for hierarchy menu of node type menu_element'
+package: custom
+type: module
+core: 8.x
+configure: 'Hierarchy Menu'
+

@@ -1,0 +1,5 @@
+services:
+ store_breadcrumb.breadcrumb:
+   class: Drupal\store_breadcrumb\Breadcrumb\StoreBreadcrumbBuilder
+   tags:
+    - { name: breadcrumb_builder, priority: 10005 }

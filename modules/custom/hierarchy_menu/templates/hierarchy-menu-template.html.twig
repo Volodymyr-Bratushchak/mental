@@ -1,0 +1,19 @@
+{{ attach_library('hierarchy_menu/hierarchy_menu') }}
+<div id="block_hierarchy_menu">
+ <h3>
+   {{ parent_element.title }}
+ </h3>
+    {# AJAX part #}
+      {#<ul>#}
+        {#{% for child in children_bush  %}#}
+          {#<li>#}
+            {#<div><a href="/node/{{ child.nid }}">{{ child.title}}</a></div>#}
+            {#<div>#}
+              {#<img src="{{ child.image }}" alt="Image of '{{ child.title}}'">#}
+            {#</div>#}
+          {#</li>#}
+        {#{% endfor %}#}
+      {#</ul>#}
+    {# AJAX part end#}
+
+</div>

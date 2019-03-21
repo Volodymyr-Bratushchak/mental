@@ -1,0 +1,6 @@
+name: Related Products
+description: 'Block for showing related products.'
+package: custom
+type: module
+core: 8.x
+configure: 'Related Products'

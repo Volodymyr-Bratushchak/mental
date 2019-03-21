@@ -1,0 +1,9 @@
+related_products.controller:
+#  path: '/product/{pid}'
+  defaults:
+    _title: 'Related Products'
+#    _controller: 'Drupal\related_products\Controller\RelatedProductsController::content'
+    _block: 'Drupal\related_products\Plugin\Block\RelatedProductsBlock'
+  requirements:
+    _permission: 'access content'
+

@@ -56,4 +56,4 @@
  * @see https://www.drupal.org/documentation/install/multi-site
  */
 
-$sites['shop.mental.loc'] = 'shop.mental.loc';
+$sites['store.mental.loc'] = 'store.mental.loc';

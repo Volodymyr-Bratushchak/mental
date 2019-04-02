@@ -1,0 +1,35 @@
+uuid: 9ac28033-0168-40d6-bd53-b26d3d919017
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.homepage
+    - views.view.flossy_favorites
+  module:
+    - views
+id: homepage-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks:
+    0fe50bc1-0001-46e0-835f-0570d40ef88d:
+      id: 'views_block:flossy_favorites-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: 0
+      uuid: 0fe50bc1-0001-46e0-835f-0570d40ef88d
+      context_mapping: {  }
+  id: block_display
+  uuid: 99242697-7db7-43f4-a7ae-5487385a9efd
+  label: null
+  weight: 0
+  page_title: ''
+page: homepage
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

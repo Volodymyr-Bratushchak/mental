@@ -1,0 +1,72 @@
+uuid: 72858b4a-4b82-469c-b2f3-9c310daab1b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.hoodie
+    - field.field.commerce_product.hoodie.body
+    - field.field.commerce_product.hoodie.field_product_description
+    - field.field.commerce_product.hoodie.field_product_image
+    - field.field.commerce_product.hoodie.field_product_kind
+    - field.field.commerce_product.hoodie.field_related_products
+    - field.field.commerce_product.hoodie.stores
+    - field.field.commerce_product.hoodie.variations
+  module:
+    - commerce_product
+    - commerce_wishlist
+    - image
+    - text
+id: commerce_product.hoodie.default
+targetEntityType: commerce_product
+bundle: hoodie
+mode: default
+content:
+  addtoany:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_product_description:
+    type: text_default
+    weight: 6
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_product_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: 1
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  variations:
+    type: commerce_add_to_cart
+    weight: 3
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings:
+      commerce_wishlist:
+        show_wishlist: '1'
+        weight_wishlist: '3'
+        label_wishlist: ''
+    region: content
+hidden:
+  body: true
+  created: true
+  field_product_kind: true
+  field_related_products: true
+  langcode: true
+  stores: true
+  uid: true

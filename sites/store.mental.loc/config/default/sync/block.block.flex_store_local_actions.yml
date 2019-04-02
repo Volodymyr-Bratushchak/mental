@@ -1,0 +1,20 @@
+uuid: 718926a8-6182-4991-82c0-ae37b595bde9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flex_store
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: flex_store_local_actions
+theme: flex_store
+region: header
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

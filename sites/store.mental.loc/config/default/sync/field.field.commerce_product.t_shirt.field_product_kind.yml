@@ -1,0 +1,33 @@
+uuid: 6720d3c4-60fe-4fcb-bdee-728812289330
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.t_shirt
+    - field.storage.commerce_product.field_product_kind
+    - taxonomy.vocabulary.merch
+  content:
+    - 'taxonomy_term:merch:6d1e45d4-5967-41b8-b068-57a6f70ce1c7'
+id: commerce_product.t_shirt.field_product_kind
+field_name: field_product_kind
+entity_type: commerce_product
+bundle: t_shirt
+label: 'Product kind'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 6d1e45d4-5967-41b8-b068-57a6f70ce1c7
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      merch: merch
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

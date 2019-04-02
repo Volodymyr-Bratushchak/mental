@@ -1,0 +1,31 @@
+uuid: 3a747b9c-b164-47ff-961c-946d8dca9f29
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_goods
+  module:
+    - system
+    - views
+  theme:
+    - flex_store
+id: views_block__related_goods_block_1_2
+theme: flex_store
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:related_goods-block_1'
+settings:
+  id: 'views_block:related_goods-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/product/*'
+    negate: false
+    context_mapping: {  }

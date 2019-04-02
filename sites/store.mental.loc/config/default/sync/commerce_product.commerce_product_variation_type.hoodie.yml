@@ -1,0 +1,10 @@
+uuid: 3ce307ef-5751-427c-b387-5ff4999644ae
+langcode: en
+status: true
+dependencies: {  }
+id: hoodie
+label: Hoodie
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

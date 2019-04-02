@@ -1,0 +1,24 @@
+uuid: a896ab5d-2140-4027-9ac2-7d18cedadbfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.commerce_product.field_product_description
+  module:
+    - text
+id: commerce_product.default.field_product_description
+field_name: field_product_description
+entity_type: commerce_product
+bundle: default
+label: 'Product description'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>A&nbsp;<strong>product description</strong>&nbsp;is the marketing copy used to describe a&nbsp;<strong>product's</strong>&nbsp;value proposition to potential customers. A compelling&nbsp;<strong>product description</strong>provides customers with details around features, problems it solves and other benefits to help generate a sale. ...</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

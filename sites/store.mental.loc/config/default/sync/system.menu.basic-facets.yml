@@ -1,0 +1,8 @@
+uuid: 9127953d-187b-4d03-92d5-d1b9bc0f5385
+langcode: en
+status: true
+dependencies: {  }
+id: basic-facets
+label: 'Basic facets'
+description: 'Kinds of goods in Mental Store '
+locked: false

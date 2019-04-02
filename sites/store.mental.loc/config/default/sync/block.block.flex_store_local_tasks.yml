@@ -1,0 +1,22 @@
+uuid: 2c3a1eab-3335-483d-a0f1-a65e497e0cd0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flex_store
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: flex_store_local_tasks
+theme: flex_store
+region: header
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

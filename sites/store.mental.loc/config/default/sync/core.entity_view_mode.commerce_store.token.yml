@@ -1,0 +1,10 @@
+uuid: 655fe393-5bdd-4913-8d23-0b54cdad1b69
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_store
+id: commerce_store.token
+label: Token
+targetEntityType: commerce_store
+cache: true

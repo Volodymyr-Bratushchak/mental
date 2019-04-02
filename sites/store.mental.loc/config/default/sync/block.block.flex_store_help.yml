@@ -1,0 +1,22 @@
+uuid: 22869664-1bf5-40b0-b97e-07cb093e3191
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - flex_store
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: flex_store_help
+theme: flex_store
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

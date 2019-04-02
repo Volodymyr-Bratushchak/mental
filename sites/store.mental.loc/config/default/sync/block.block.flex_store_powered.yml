@@ -1,0 +1,22 @@
+uuid: 98ea230f-dbe0-4242-a96b-b19998a23a7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flex_store
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: flex_store_powered
+theme: flex_store
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

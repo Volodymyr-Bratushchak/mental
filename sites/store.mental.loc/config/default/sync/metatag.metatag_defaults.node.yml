@@ -1,0 +1,31 @@
+uuid: aef1c477-62db-49ee-8d43-cff70262be51
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Content
+tags:
+  image_src: '[commerce_product:field_product_image:0]'
+  title: '[commerce_product:title] ||||| [site:name]'
+  description: '[commerce_product:field_product_description]'
+  keywords: '[commerce_product:field_product_kind]'
+  canonical_url: '[node:url]'
+  og_site_name: '[commerce_product:title] | [site:name]'
+  og_image_url: '[commerce_product:field_product_image:0]'
+  og_url: '[commerce_product:url]'
+  og_description: '[commerce_product:field_product_description]'
+  og_image: '[commerce_product:field_product_image:0]'
+  og_title: '[commerce_product:title]'
+  og_type: Product
+  product_price_currency: '[commerce_product:variations:0:entity:price:currency_code]'
+  product_price_amount: ' [commerce_product:variations:0:entity:price:number]'
+  pinterest_media: '[commerce_product:field_product_image:0]'
+  pinterest_description: '[commerce_product:field_product_description]'
+  twitter_cards_type: summary
+  twitter_cards_image: '[commerce_product:field_product_image:0]'
+  schema_product_image: 'a:3:{s:5:"@type";s:11:"ImageObject";s:20:"representativeOfPage";s:4:"True";s:3:"url";s:40:"[commerce_product:field_product_image:0]";}'
+  schema_product_type: Product
+  schema_product_name: '[commerce_product:title]'
+  schema_product_description: "\t[commerce_product:field_product_description]"

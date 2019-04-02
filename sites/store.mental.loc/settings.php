@@ -779,3 +779,7 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $config_directories['sync'] = 'sites/store.mental.loc/files/config_f4R9eqcnAtIUPpcjm-bFwaWkqw5DNUcp5Xes06QRxEgHeNhMTEQTJYPpBwovkJUgNHOLpQKZ8A/sync';
+/*
+Config files
+*/
+$config_directories[CONFIG_SYNC_DIRECTORY] = 'sites/store.mental.loc/config/default/sync';

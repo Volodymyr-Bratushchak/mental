@@ -1,0 +1,37 @@
+uuid: 955feeee-24ee-4005-a7b3-0f5048e9d791
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.hoodie
+    - field.field.commerce_product_variation.hoodie.attribute_size
+  module:
+    - commerce_price
+id: commerce_product_variation.hoodie.default
+targetEntityType: commerce_product_variation
+bundle: hoodie
+mode: default
+content:
+  attribute_size:
+    type: entity_reference_label
+    weight: 4
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  price:
+    label: hidden
+    type: commerce_price_default
+    weight: 2
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  list_price: true
+  product_id: true
+  sku: true
+  title: true

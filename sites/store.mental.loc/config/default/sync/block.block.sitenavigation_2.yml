@@ -1,0 +1,24 @@
+uuid: 4f4b89e1-4ec4-404b-bdb8-aa1d20862b52
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.site-navigation
+  module:
+    - system
+  theme:
+    - bootstrap
+id: sitenavigation_2
+theme: bootstrap
+region: navigation_collapsible
+weight: -6
+provider: null
+plugin: 'system_menu_block:site-navigation'
+settings:
+  id: 'system_menu_block:site-navigation'
+  label: 'Site navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

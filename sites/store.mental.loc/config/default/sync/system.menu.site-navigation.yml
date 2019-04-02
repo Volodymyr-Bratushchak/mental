@@ -1,0 +1,8 @@
+uuid: 92b15c90-90de-4ff6-b256-7b2fd7656f4f
+langcode: en
+status: true
+dependencies: {  }
+id: site-navigation
+label: 'Site navigation'
+description: ''
+locked: false

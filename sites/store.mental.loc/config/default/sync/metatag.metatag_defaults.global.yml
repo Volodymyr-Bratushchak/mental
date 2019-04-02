@@ -1,0 +1,23 @@
+uuid: b139d824-fcf7-41ae-893e-1bef48677da5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  image_src: '[commerce_product:field_product_image:0:medium]'
+  title: '[current-page:title] | [site:name]'
+  description: '[commerce_product:field_product_description]'
+  keywords: '[commerce_product:field_product_kind]'
+  canonical_url: '[current-page:url]'
+  og_site_name: '[current-page:title] |-| [site:name]'
+  og_image_url: '[commerce_product:field_product_image:0:medium]'
+  og_url: '[commerce_product:url]'
+  og_description: '[commerce_product:field_product_description]'
+  og_image: '[commerce_product:field_product_image:0:medium]'
+  og_title: '[commerce_product:title]'
+  og_type: Product
+  product_price_currency: '[commerce_product:variations:0:entity:price:currency_code]'
+  product_price_amount: '[commerce_product:variations:0:entity:price:number]'

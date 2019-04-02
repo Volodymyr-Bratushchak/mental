@@ -1,0 +1,24 @@
+uuid: 3111233f-0506-4e1d-8962-a6dfdeb109b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.basic-facets
+  module:
+    - system
+  theme:
+    - bartik
+id: basicfacets
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:basic-facets'
+settings:
+  id: 'system_menu_block:basic-facets'
+  label: 'Basic facets'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

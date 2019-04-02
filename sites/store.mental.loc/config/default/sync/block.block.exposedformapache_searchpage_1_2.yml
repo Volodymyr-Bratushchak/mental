@@ -1,0 +1,23 @@
+uuid: a35f4c0f-f0d5-4821-9256-7397b5c502bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.apache_search
+  module:
+    - views
+  theme:
+    - flex_store
+id: exposedformapache_searchpage_1_2
+theme: flex_store
+region: navigation_collapsible
+weight: -6
+provider: null
+plugin: 'views_exposed_filter_block:apache_search-page_1'
+settings:
+  id: 'views_exposed_filter_block:apache_search-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

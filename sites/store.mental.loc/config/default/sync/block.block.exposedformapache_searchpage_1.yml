@@ -1,0 +1,23 @@
+uuid: 8e3fcbc2-1e67-4c53-9fe5-3ba1f24b1eed
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.apache_search
+  module:
+    - views
+  theme:
+    - bartik
+id: exposedformapache_searchpage_1
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:apache_search-page_1'
+settings:
+  id: 'views_exposed_filter_block:apache_search-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

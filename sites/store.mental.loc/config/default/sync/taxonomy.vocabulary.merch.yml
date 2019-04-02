@@ -1,0 +1,9 @@
+uuid: f553c2ab-85fc-4955-82c5-75cea3533589
+langcode: en
+status: true
+dependencies: {  }
+name: Merch
+vid: merch
+description: 'Kinds of goods in Mental Store '
+hierarchy: 0
+weight: 0

@@ -1,0 +1,24 @@
+uuid: dc8455b0-f6cc-4266-a00e-ca6dc31fe3d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.site-navigation
+  module:
+    - system
+  theme:
+    - flex_store
+id: sitenavigation_3
+theme: flex_store
+region: navigation_collapsible
+weight: -5
+provider: null
+plugin: 'system_menu_block:site-navigation'
+settings:
+  id: 'system_menu_block:site-navigation'
+  label: 'Site navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

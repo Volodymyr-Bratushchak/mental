@@ -1,0 +1,14 @@
+uuid: e53b5923-f947-4e0f-abf9-787cb1147f57
+name: 'Mental Floss Store'
+mail: volodymyr.bratushchak@ukr.net
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /homepage
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

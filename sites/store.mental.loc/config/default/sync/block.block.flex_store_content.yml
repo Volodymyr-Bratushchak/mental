@@ -1,0 +1,22 @@
+uuid: 7e7f0348-3d19-4984-9cb4-c39503a633c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flex_store
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: flex_store_content
+theme: flex_store
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

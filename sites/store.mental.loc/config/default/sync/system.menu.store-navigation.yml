@@ -1,0 +1,8 @@
+uuid: 2e76f8af-af32-4751-8dc7-66e1278b155c
+langcode: en
+status: true
+dependencies: {  }
+id: store-navigation
+label: 'Store navigation'
+description: ''
+locked: false

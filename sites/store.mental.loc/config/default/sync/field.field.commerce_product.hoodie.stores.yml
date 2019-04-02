@@ -1,0 +1,21 @@
+uuid: 67cbb546-6b8f-428f-bc57-3932ebe3c31d
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.hoodie
+    - field.storage.commerce_product.stores
+id: commerce_product.hoodie.stores
+field_name: stores
+entity_type: commerce_product
+bundle: hoodie
+label: Stores
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_store'
+  handler_settings: {  }
+field_type: entity_reference

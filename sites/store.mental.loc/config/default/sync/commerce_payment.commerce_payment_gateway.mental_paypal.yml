@@ -1,0 +1,22 @@
+uuid: 80499dcf-3d90-4fb0-a041-6de14d901a29
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+id: mental_paypal
+label: 'Mental PayPal'
+weight: null
+plugin: paypal_express_checkout
+configuration:
+  api_username: brat2494-facilitator_api1.ukr.net
+  api_password: EHBJ8V7U4HNE78CD
+  shipping_prompt: shipping_skip
+  signature: A88bzkGGgvtCC.y2Ik0ws0aiHc-mAEbyWdcnkn2dTiqWE8KAgGWYI1nI
+  solution_type: Mark
+  display_label: 'PayPal method'
+  mode: test
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

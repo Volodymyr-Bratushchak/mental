@@ -1,0 +1,22 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+function wishlist_alter_form_commerce_order_item_add_to_cart_form_alter( &$form, FormStateInterface &$form_state, $form_id ){
+  $current_route_name = \Drupal::service('current_route_match')->getRouteName();
+  if ($current_route_name != 'entity.commerce_product.canonical') {
+    $form['quantity']['#access'] = FALSE;
+    unset ($form['actions']['wishlist']);
+  }
+}
+
+function wishlist_alter_preprocess_views_view_field__taxonomy_products__page_1__variations(&$vars) {
+  $product = $vars['row']->_entity;
+  $is_default = $product->__get('type')->getValue()[0]['target_id'] == 'default';
+  $product_id = $product->id();
+  $vars['product'] = [
+    'product_id' => $product_id,
+    'is_default' => $is_default,
+  ];
+}
+

@@ -1,0 +1,19 @@
+/**
+ * Place your custom styles here.
+ */
+
+.menu--site-navigation ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 10%;
+  overflow: hidden;
+}
+
+.menu--site-navigation li {
+  float: left;
+}
+
+.menu--site-navigation li a {
+  display: block;
+  padding: 5px;
+}

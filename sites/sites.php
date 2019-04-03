@@ -56,4 +56,5 @@
  * @see https://www.drupal.org/documentation/install/multi-site
  */
 
+$sites['mental.loc'] = 'default';
 $sites['store.mental.loc'] = 'store.mental.loc';

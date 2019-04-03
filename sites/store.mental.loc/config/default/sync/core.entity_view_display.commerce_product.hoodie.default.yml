@@ -59,7 +59,7 @@ content:
     third_party_settings:
       commerce_wishlist:
         show_wishlist: '1'
-        weight_wishlist: '3'
+        weight_wishlist: '99'
         label_wishlist: ''
     region: content
 hidden:

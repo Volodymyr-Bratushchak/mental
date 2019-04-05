@@ -11,7 +11,7 @@ dependencies:
 id: sitenavigation_3
 theme: flex_store
 region: navigation_collapsible
-weight: -5
+weight: -6
 provider: null
 plugin: 'system_menu_block:site-navigation'
 settings:

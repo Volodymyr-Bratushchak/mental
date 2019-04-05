@@ -1,0 +1,21 @@
+uuid: 6a9b1eb8-bf3d-4c1f-b0e6-c1f1fa789c04
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - flex_store
+id: cart
+theme: flex_store
+region: navigation_collapsible
+weight: -5
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  provider: commerce_cart
+  label_display: '0'
+  dropdown: true
+visibility: {  }

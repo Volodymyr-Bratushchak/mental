@@ -7,3 +7,18 @@
  * Place your custom PHP code in this file.
  */
 
+function flex_store_preprocess_views_view__taxonomy_products(&$vars) {
+  if (\Drupal::routeMatch()->getRouteName() == 'entity.taxonomy_term.canonical') {
+    $term_id = \Drupal::routeMatch()->getRawParameter('taxonomy_term');
+    $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($term_id);
+    $term_name = $term->__get('name')->getValue()[0]['value'];
+    $image_url = $vars['directory'] . '/files/images/' . strtolower($term_name) . '.jpg';
+    $file_exist = file_exists($image_url);
+    $vars['exist'] = $file_exist;
+    $vars['image'] = [
+      'exist' => $file_exist,
+      'url' => $image_url,
+    ];
+  }
+}
+

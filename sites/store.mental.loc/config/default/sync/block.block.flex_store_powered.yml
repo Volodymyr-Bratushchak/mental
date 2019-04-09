@@ -1,6 +1,6 @@
 uuid: 98ea230f-dbe0-4242-a96b-b19998a23a7e
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: flex_store_powered
 theme: flex_store
 region: footer
-weight: -10
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:

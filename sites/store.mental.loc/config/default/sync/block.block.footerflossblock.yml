@@ -1,0 +1,20 @@
+uuid: 95bfe3a1-dc24-443d-b91b-bb789a06ad0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - footer_floss
+  theme:
+    - flex_store
+id: footerflossblock
+theme: flex_store
+region: footer
+weight: 0
+provider: null
+plugin: footer_floss
+settings:
+  id: footer_floss
+  label: 'Footer Floss Block'
+  provider: footer_floss
+  label_display: '0'
+visibility: {  }

@@ -20,5 +20,6 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'use text format mailchimp_campaign'
   - 'view commerce_product'
   - 'view own commerce_order'

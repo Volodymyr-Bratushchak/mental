@@ -1,12 +1,12 @@
-uuid: ba2fdbe2-b2b4-401b-b2e0-7ac32e4320bf
+uuid: 66fd7cde-9413-4381-9157-327ca3890339
 langcode: en
 status: true
 dependencies: {  }
-id: cart_items_check
-label: 'Cart items Check'
+id: sitemap
+label: Sitemap
 description: ''
 use_admin_theme: false
-path: /cart_items
+path: /sitemap
 access_logic: and
 access_conditions: {  }
 parameters: {  }

@@ -1,0 +1,50 @@
+langcode: en
+page_title: Sitemap
+message:
+  value: ''
+  format: restricted_html
+show_front: false
+show_titles: true
+show_books: {  }
+books_expanded: true
+show_menus:
+  store-navigation: store-navigation
+  web-pages: web-pages
+  account: '0'
+  admin: '0'
+  basic-facets: '0'
+  devel: '0'
+  footer: '0'
+  main: '0'
+  site-navigation: '0'
+  tools: '0'
+show_menus_hidden: false
+show_vocabularies:
+  merch: '0'
+  tags: '0'
+show_description: false
+show_count: false
+vocabulary_show_links: false
+vocabulary_depth: -1
+term_threshold: 0
+forum_threshold: -1
+rss_front: rss.xml
+show_rss_links: 1
+rss_taxonomy: -1
+css: true
+order:
+  front: -50
+  menus_account: -50
+  menus_admin: -50
+  menus_basic-facets: -50
+  menus_devel: -50
+  menus_footer: -50
+  menus_main: -50
+  menus_site-navigation: -50
+  menus_tools: -50
+  vocabularies_merch: -50
+  vocabularies_tags: -50
+  menus_web-pages: 0
+  menus_store-navigation: 50
+_core:
+  default_config_hash: f4sH8CGbEMFQXKFoGeaHbmIP_f6cOTi02EeFhHSbYyo

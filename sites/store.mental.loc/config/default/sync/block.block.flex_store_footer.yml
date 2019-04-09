@@ -1,6 +1,6 @@
 uuid: ce5900ae-4199-4d67-a410-fdd6a2c4706d
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -13,7 +13,7 @@ _core:
 id: flex_store_footer
 theme: flex_store
 region: footer
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

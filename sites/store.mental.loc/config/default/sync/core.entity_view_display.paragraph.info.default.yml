@@ -1,0 +1,31 @@
+uuid: fe05a3c5-ee0c-4c93-aa64-a9a5bc023593
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.info.field_info_title
+    - field.field.paragraph.info.field_text_info
+    - paragraphs.paragraphs_type.info
+  module:
+    - text
+id: paragraph.info.default
+targetEntityType: paragraph
+bundle: info
+mode: default
+content:
+  field_info_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_text_info:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

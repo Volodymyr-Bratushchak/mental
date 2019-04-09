@@ -1,0 +1,32 @@
+uuid: 1543f91d-6ffc-4013-8042-82cab01b5beb
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.sitemap
+  module:
+    - sitemap
+id: sitemap-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks:
+    8e88a45c-7d01-4a8e-90af-5035e272a669:
+      id: sitemap
+      label: Sitemap
+      provider: sitemap
+      label_display: '0'
+      region: top
+      weight: 0
+      uuid: 8e88a45c-7d01-4a8e-90af-5035e272a669
+      context_mapping: {  }
+  id: block_display
+  uuid: dfe06f72-b470-410a-b2f0-6687596188c4
+  label: null
+  weight: 0
+  page_title: Sitemap
+page: sitemap
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

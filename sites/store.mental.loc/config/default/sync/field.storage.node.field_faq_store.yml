@@ -1,0 +1,19 @@
+uuid: 0b97bca4-f21e-48ba-879b-78199ac8bead
+langcode: en
+status: true
+dependencies:
+  module:
+    - faqfield
+    - node
+id: node.field_faq_store
+field_name: field_faq_store
+entity_type: node
+type: faqfield
+settings: {  }
+module: faqfield
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

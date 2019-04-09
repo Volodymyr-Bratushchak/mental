@@ -1,4 +1,4 @@
-uuid: 2e76f8af-af32-4751-8dc7-66e1278b155c
+uuid: 8e7d21ab-9d2e-4987-9652-97b4fd6e85d4
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - sitemap
 third_party_settings:
   sitemap:
-    sitemap_display_name: Categories
-id: store-navigation
-label: 'Store navigation'
+    sitemap_display_name: 'Web Pages'
+id: web-pages
+label: 'Web Pages'
 description: ''
 locked: false

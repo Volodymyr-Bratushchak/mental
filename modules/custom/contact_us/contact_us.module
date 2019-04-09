@@ -54,6 +54,7 @@ function contact_us_schema() {
       'pid' => [
         'type' => 'serial',
         'description' => 'Primary Key: Unique person ID.',
+        'not null' => TRUE,
       ],
       'full_name' => [
         'type' => 'varchar',

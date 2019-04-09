@@ -1,0 +1,6 @@
+name: Contact Us
+description: 'Contact Us-form'
+package: custom
+type: module
+core: 8.x
+configure: 'Contact Us'

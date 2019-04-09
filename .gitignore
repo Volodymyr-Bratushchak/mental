@@ -44,3 +44,6 @@ sites/simpletest
 # simpletest
 
 .idea/
+mental/config/default/sync/mailchimp.settings.yml
+mental/sites/store.mental.loc/config/default/sync/mailchimp.settings.yml
+

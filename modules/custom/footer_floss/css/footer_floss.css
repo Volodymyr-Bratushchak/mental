@@ -1,0 +1,23 @@
+.footer_menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer_menu li {
+  float: left;
+}
+
+.footer_menu a {
+  float: left;
+  display: inline-block;
+  color: #111;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+.footer_menu a:hover {
+  color: red;
+}

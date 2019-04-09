@@ -1,0 +1,10 @@
+contact_us:
+  version: 1.x
+  css:
+    theme:
+  js:
+  dependencies:
+    - core/jquery
+    - core/drupal.dialog.ajax
+    - core/ajax
+

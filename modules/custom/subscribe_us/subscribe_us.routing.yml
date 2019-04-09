@@ -1,9 +1,0 @@
-subscribe_us.form:
-  path: '/subscribe_us'
-  defaults:
-    _title: 'Subscribe Us'
-    _form: 'Drupal\subscribe_us\Form\SubscribeUsForm'
-    _block: 'Drupal\subscribe_us\Plugin\Block\SubscribeUsBlock'
-    _controller: 'Drupal\subscribe_us\Controller\SubscribeUsController::content'
-  requirements:
-    _permission: 'access content'

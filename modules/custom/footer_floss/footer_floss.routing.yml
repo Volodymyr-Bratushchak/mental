@@ -1,0 +1,6 @@
+footer_floss.block:
+  defaults:
+    _title: 'Footer Floss'
+    _block: 'Drupal\footer_floss\Plugin\Block\FooterFlossBlock'
+  requirements:
+    _permission: 'access content'
